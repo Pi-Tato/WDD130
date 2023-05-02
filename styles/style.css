@@ -47,3 +47,28 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+aside{
+    width: 20em;
+    text-align: center;
+}
+main img{
+    float: right;
+}
+aside h2{
+    position: absolute;
+    left: 190px;
+    bottom: 340px;
+}
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px;
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}

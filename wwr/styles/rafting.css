@@ -1,0 +1,46 @@
+:root{
+    --primary-color: #072ac8;
+    --secondary-color: #a2d6f9;
+    --accent-color: #1e96fc;
+
+    --heading-font: 'Hello', kanit;
+    --paragraph-font: 'Hello', libre-franklin;
+
+    --nav-bg-color: var(--secondary-color);
+    --nav-link-color: var(--primary-color);
+    --nav-hover-link-color: var(--accent-color);
+    width: 1080px;
+}
+h1{
+    font-family: 'Kanit', sans-serif;
+    color: var(--primary-color);
+    position: absolute;
+}
+h2{
+    font-family: 'Karla', sans-serif;
+    color: var(--accent-color)
+}
+p{
+    font-family: 'Libre-Franklin', sans-serif;
+}
+
+footer img{
+    width: 40px;
+    height: auto;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.hero article{
+    position: absolute;
+}
+.hero article img{
+    float: right;
+}
+.hero h1{
+    position: absolute;
+}

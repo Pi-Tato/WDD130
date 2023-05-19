@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>About Us</title>
+        <title>Contact Us</title>
         <meta name="description" content="The contact site has all the contact information.">
         <meta name="author" content="Noah Carlisle">
-        <link rel="stylesheet" href="styles/rafting.css">
+        <link rel="stylesheet" href="styles/contact.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Libre+Franklin&display=swap');
@@ -37,31 +37,56 @@
                 </article>
             </div>
             <section>
-                <h2>History</h2>
-                <p>qghjhg wsdfghj wedrfk rtyujga asy ugf hfg fgbb werjg qwertgh
-                     wsedfrg sw defg afdf qwegb ahjgwerth wefssghb werfwer rtgqqwerf ert rtfqwedqwere rfwerf
-                    wdwerfsswergwe fgwedff fwertgswertgs gerg</p>
+                <h2>Company Information</h2>
+                <p>800 Lincoln Way, Ames, Idaho</p>
+                <p>(515) 239-1101</p>
+                <p>kiu2@edusmart.website</p>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23030.709962685753!2d-111.23067096549863!3d43.81770412162022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1684526475012!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </section>
+            <h2>Employees</h2>
             <section class="pics">
-                <h2>Adventure Awaits You!</h2>
                 <span>
                     <figure>
-                        <img src="images/WWR1.jpg"><figcaption>Hi</figcaption>
+                        <img src="images/HappyEmployee1.png"><figcaption>John</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/WWR2.jpg"><figcaption>Hi</figcaption>
+                        <img src="images/HappyEmployee2.png"><figcaption>Sarah</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/WWR3.jpg"><figcaption>Hi</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/WWR4.jpg"><figcaption>Hi</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/WWR5.jpg"><figcaption>Hi</figcaption>
+                        <img src="images/HappyEmployee3.png"><figcaption>Hannah</figcaption>
                     </figure>
                 </span>
             </section>
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="username">Fullname</label>
+                        <input type="text" id="username" name="username">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div>
+                        <select name="type" id="type">
+                            <option value="" selected disabled>Type of Message</option>
+                            <option value="inquiry">General Inquiry</option>
+                            <option value="question">Reservation Question</option>
+                            <option value="suggestion">Website Suggestion</option>
+                        </select>
+                        <textarea id="message" name="message" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <label for="newsletter">Please subscribe me to the monthy newsletter</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
         </main>
     </body>
     <footer>

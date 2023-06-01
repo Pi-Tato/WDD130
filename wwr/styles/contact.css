@@ -4,8 +4,8 @@
     --secondary-color: #a2d6f9;
     --accent-color: #1e96fc;
 
-    --heading-font: 'Hello', kanit;
-    --paragraph-font: 'Hello', libre-franklin;
+    --heading-font: 'Kanit', sans-serif;
+    --paragraph-font: 'Libre-Franklin', sans-serif;
 
     --nav-bg-color: var(--secondary-color);
     --nav-link-color: var(--primary-color);

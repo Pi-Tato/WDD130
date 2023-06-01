@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Karla:wght@500&family=Libre+Franklin&family=Merriweather:wght@900&display=swap');
 :root{
     --primary-color: #072ac8;
     --secondary-color: #a2d6f9;
     --accent-color: #1e96fc;
 
-    --heading-font: 'Hello', kanit;
-    --paragraph-font: 'Hello', libre-franklin;
+    --heading-font: 'Kanit', sans-serif;
+    --paragraph-font: 'Libre-Franklin', sans-serif;
 
     --nav-bg-color: var(--secondary-color);
     --nav-link-color: var(--primary-color);
@@ -81,6 +82,16 @@ footer nav{
 footer{
     margin-right: -30%;
     margin-left: -30%;
+    margin-top: 1100px;
+    text-align: center;
+    border-bottom: #ccc;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    color: tomato;
+    text-decoration: underline;
 }
 .hero{
     display: flex;
@@ -123,4 +134,84 @@ footer{
     color: tomato;
     font-weight: 700;
     text-decoration: underline;
+}
+.top, h1{
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+.top, img{
+    flex-wrap: wrap;
+    float: right;
+    width: 600px;
+    height: auto;
+}
+table, th, td{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 100%;
+}
+table{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.top{
+    display: flex;
+    width: fit-content;
+    margin-top: 70px;
+}
+.top-header{
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.home{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.home h1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: #004a8685;
+    border-radius: 20px;
+}
+.home img{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -2;
+}
+.newsletter{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    font-family: 'Karla', sans-serif;
+}
+.newsletter fieldset{
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 1rem;
+}
+.newsletter button{
+    margin: 0 auto;
+    background-color: navy;
+    width: 30%;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+.newsletter button:hover{
+    background-color: rgb(0, 118, 148);
+}
+.bottom{
+    margin-top: -900px;
 }
